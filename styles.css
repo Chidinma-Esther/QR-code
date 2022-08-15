@@ -1,0 +1,39 @@
+h1{
+    text-align: center;
+    color: hsl(220, 15%, 55%);
+    font-weight: 700px;
+    padding: 3%;
+}
+p{
+    text-align: center;
+   padding-bottom: 20px;
+   width: 60%;
+   margin: auto;
+   color: hsl(212, 45%, 89%);
+   font-weight: 400px;
+}
+body{
+    font-size: 15px;
+    font-family: "outfit";
+}
+.grid-container{
+    display: grid;
+    padding:5%;
+    justify-content: center;
+}
+    
+.one{
+    background-color: hsl(218, 44%, 22%);
+    display: flex;
+flex-direction: column;
+padding:10px ;
+height: 800px;
+width: 400px;
+}
+.two{
+   background-color: hsl(0, 0%, 100%); 
+   align-items: center;
+   height: 650px;
+   margin: 75px 10px 0;
+   border-radius: 15px;
+}
